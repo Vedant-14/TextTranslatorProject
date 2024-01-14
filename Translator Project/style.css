@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+body {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background:pink;
+}
+.container {
+    width:690px;
+    background:paleturquoise;
+    border-radius:4px;
+    padding:40px;
+}
+.wrapper {
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+.wrapper .text-input {
+    display :flex;
+    border-bottom:1px solid black;
+}
+
+.text-input .to-text {
+    border-left:1px solid black;
+    border-radius:0px;
+    background-color:white;
+}
+.text-input textarea {
+    height:250px;
+    width:100%;
+    border:none;
+    font-size:18px;
+    background-color: none;
+    outline:none;
+    border-radius:5px;
+    padding:10px 15px;
+}
+.controls {
+    padding:14px 14px;
+    list-style:none;
+     
+}
+.controls ,li {
+    display:flex;
+    align-items:center;
+    justify-content:space-between; 
+}
+
+
+.controls .icons i{
+    color:grey;
+    cursor:pointer;
+    width:50px;
+    font-size:14px;
+}
+.controls .row select{
+    border:none;
+    outline:none;
+    font-size:18px;
+    background:none;
+}
+.controls .exchange {
+    color:grey;
+    font-size:16px;
+    cursor:pointer;
+}
+.center-button {
+    display:flex;
+    justify-content: top;
+    align-items: center;
+ }
+ .container button {
+/*     
+     width:100%;
+     padding:14px;
+     margin-top:20px;
+     border:none;
+     outline:none;
+     cursor:pointer;
+     color:white;
+     font-size:17px;
+     border-radius:5px;
+     background:blue;
+     height:15px;  
+ } */
+    width:100%;
+    border-radius:5px;
+    padding:7px;
+    background:blue;
+    color:white;
+    cursor:pointer;
+    border:none;
+    font-size:large;
+}
+ button {
+    text-align:center;
+    box-shadow:black;
+ }
+ button:active {
+    transform :scale(0.98);
+    /* box-shadow:3px 2px 22px 1px rgba(0,0,0,0.24); */
+    box-shadow:3px 2px rgb(0, 0, 0);
+    
+ }
